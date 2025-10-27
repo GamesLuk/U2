@@ -6,9 +6,14 @@ public class H3_main {
 
     public static void main(String[] args) {
 
-        int i = RandomGenerator.getDefault().nextInt(-20, 20);
-        int j = RandomGenerator.getDefault().nextInt(-20, 20);
+        int i = 1;
+        int j = 2;
         int k = -10;
+
+		/*
+		i = RandomGenerator.getDefault().nextInt(-20, 20);
+        j = RandomGenerator.getDefault().nextInt(-20, 20);
+		*/
 
         System.out.println(i + " " + j);
 

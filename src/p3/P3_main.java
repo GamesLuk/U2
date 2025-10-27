@@ -6,9 +6,13 @@ public class P3_main {
 
     public static void main(String[] args) {
 
-        int i = RandomGenerator.getDefault().nextInt(-10, 10);
-        int j = RandomGenerator.getDefault().nextInt(-10, 10);
-        int k = RandomGenerator.getDefault().nextInt(-10, 10);
+        int i = 0;
+        int j = 1;
+        int k = 2;
+
+        // i = RandomGenerator.getDefault().nextInt(-10, 10);
+        // j = RandomGenerator.getDefault().nextInt(-10, 10);
+        // k = RandomGenerator.getDefault().nextInt(-10, 10);
 
         System.out.println(i + " " + j + " " + k);
 

@@ -11,7 +11,9 @@ public class P1_main {
         Scanner s = new Scanner(System.in);
         String zeile = new String(); // why not simply: "String zeile;" ?
         zeile = s.nextLine();
+
         System.out.println(zeile);
+
         s.close();
 
     }
@@ -21,5 +23,6 @@ public class P1_main {
 /* Aufgaben zum Code:
 
 b) Das Geschriebene wird in der Konsole ausgegeben.
+c) In IntelliJ: STRG + ALT + L
 
  */

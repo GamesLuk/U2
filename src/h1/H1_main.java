@@ -6,7 +6,9 @@ public class H1_main {
 
     public static void main(String[] args) {
 
-        int z = RandomGenerator.getDefault().nextInt(0, 20);
+        int z = 1;
+
+        // z = RandomGenerator.getDefault().nextInt(0, 20);
 
         System.out.println(z);
 

@@ -8,11 +8,17 @@ public class H2_main {
 
     public static void main(String[] args) {
 
-        int i = RandomGenerator.getDefault().nextInt(-20, 20);
-        int j = RandomGenerator.getDefault().nextInt(-20, 20);
-        int k = RandomGenerator.getDefault().nextInt(-20, 20);
+        int i = 1;
+        int j = 2;
+        int k = 3;
         int min;
         int max;
+
+        /*
+		i = RandomGenerator.getDefault().nextInt(-20, 20);
+        j = RandomGenerator.getDefault().nextInt(-20, 20);
+        k = RandomGenerator.getDefault().nextInt(-20, 20);
+		*/
 
         List<Integer> list = new ArrayList<>();
         list.add(i);
